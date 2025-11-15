@@ -1,0 +1,22 @@
+import random
+
+digit = random.randrange (1, 10)
+
+
+counter = 0
+
+while counter < 3:
+
+    counter += 1
+    
+    num = input ("Take a guess")
+
+    if num != digit:
+        print ("Wrong answer, try again!")     
+
+    else:
+        print ("You win!")
+        break
+
+else:
+    print (f"The number was {digit}. Game over!")
