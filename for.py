@@ -3,7 +3,6 @@ for c in "phyton":
 
 
 string = "phyton"
-print (len(string))
 index = 0
 
 while index < len(string):

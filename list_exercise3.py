@@ -9,4 +9,8 @@ for current in list:
 print (variable)
 
 
-    
+                                                                                              
+
+
+
+

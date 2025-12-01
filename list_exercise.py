@@ -7,4 +7,24 @@ for n in list:
 
 print (list2)
 
+
+
+
+
+
+
+
+
+
+
+
+
+                             
+
+
+
+
+
+
+
                              

@@ -10,3 +10,5 @@ for n in range(0,2001):
 
 plt.plot(x,y) 
 plt.show()
+
+

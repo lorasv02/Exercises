@@ -3,7 +3,6 @@ import numpy
 
 list = [2, 8, 4, 7, 6]
 
-sum = 0
 sum2 = 0
 
 for element in list:
