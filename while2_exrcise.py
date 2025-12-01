@@ -3,7 +3,7 @@
 while True:
 
     command = input ("Insert command")
-    command = command.title()
+   
 
     if command == "Start":
         print ("Engine is on!")

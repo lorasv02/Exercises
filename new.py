@@ -1,4 +1,4 @@
-flower = 'rose"'
+flower = 'rose'
 
 print (flower[-2])
 
