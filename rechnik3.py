@@ -2,17 +2,18 @@
 #grin = '\U0001F641'
 
 variables = {":)": "\U0001F642", ":(": "\U0001F641"}
-
-sentence = input()
+sentence = ""
 
 while sentence != "Done":
 
+    sentence = input()
+
     words = sentence.split(" ")
 
-    for i in words:
-        if i in variables:
-            sentence = sentence.replace(i, variables[i])
+    for i in range(0, len(words)):
+           token = words[i]
+           words[i] = variables.get(token, token)
 
-    break        
-
-print (sentence)
+    sentence = " ".join(words)
+    print(sentence)
+    
