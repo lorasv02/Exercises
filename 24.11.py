@@ -7,6 +7,6 @@ for var in list:
         number = var 
 
 
-print (number)
+print (number) #принтира се най-голямото число
 
 

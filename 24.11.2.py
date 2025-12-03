@@ -1,6 +1,6 @@
 import numpy 
 
-list = [1, 5.1, 9, 6] 
+list = [1, 5.1, 9, 6, 3] 
 list.sort() 
 
 gone_index = len(list)//2 
